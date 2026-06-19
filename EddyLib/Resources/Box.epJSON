@@ -347,7 +347,7 @@
   },
   "Version": {
     "Version 1": {
-      "version_identifier": "9.4"
+      "version_identifier": "25.1"
     }
   },
   "WindowMaterial:SimpleGlazingSystem": {
@@ -383,7 +383,7 @@
       "control_1_name": "Dual Setpoint - Zone UNZ_0",
       "control_1_object_type": "ThermostatSetpoint:DualSetpoint",
       "control_type_schedule_name": "UNZ_0ZoneControlTypeSched",
-      "zone_or_zonelist_name": "UNZ_0"
+      "zone_or_zonelist_or_space_or_spacelist_name": "UNZ_0"
     }
   },
   "ZoneHVAC:EquipmentConnections": {
@@ -438,7 +438,7 @@
       "temperature_term_coefficient": 0,
       "velocity_squared_term_coefficient": 0,
       "velocity_term_coefficient": 0,
-      "zone_or_zonelist_name": "UNZ_0"
+      "zone_or_zonelist_or_space_or_spacelist_name": "UNZ_0"
     }
   }
 }
