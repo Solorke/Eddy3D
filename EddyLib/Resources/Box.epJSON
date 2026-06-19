@@ -361,7 +361,7 @@
     "UNZ_0": {
       "direction_of_relative_north": 0,
       "floor_area": 9,
-      "multiplier": 1.0,
+      "multiplier": 1,
       "type": 1,
       "volume": 27,
       "x_origin": 0,
