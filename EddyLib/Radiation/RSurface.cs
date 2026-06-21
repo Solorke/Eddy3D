@@ -47,6 +47,7 @@ namespace EddyLib.Radiation
 
             // simple mesh for rad sim and obstruction calculation
             MeshingParameters mp_low = new MeshingParameters();
+            mp_low.MaximumEdgeLength = 5.0;
             LowPoly = new Mesh();
             foreach (var m in Mesh.CreateFromBrep(b, mp_low))
             {
@@ -83,6 +84,7 @@ namespace EddyLib.Radiation
 
             // simple mesh for rad sim and obstruction calculation
             MeshingParameters mp_low = new MeshingParameters();
+            mp_low.MaximumEdgeLength = 5.0;
             LowPoly = new Mesh();
             foreach (var m in Mesh.CreateFromBrep(b, mp_low))
             {
@@ -126,6 +128,7 @@ namespace EddyLib.Radiation
             //}
 
             MeshingParameters mp_low = new MeshingParameters();
+            mp_low.MaximumEdgeLength = 5.0;
             MeshingParameters mp_high = new MeshingParameters();
             mp_high.MaximumEdgeLength = patchSize;
             mp_high.MinimumEdgeLength = patchSize;
